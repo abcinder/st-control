@@ -1,8 +1,0 @@
-import time
-import serial
-
-dev = "/dev/ttyACM0"
-
-ser = serial.Serial(dev, 9600)
-while True:
-    print ser.readline()
